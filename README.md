@@ -1,7 +1,7 @@
 # TyphiNET web dashboard
 ![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spider) 
 ![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spider) 
-![License](https://img.shields.io/badge/license-MIT-blue) 
+![License](https://img.shields.io/badge/license-GPL) 
 ![Version](https://img.shields.io/badge/version-1.0-red) 
 ![Last Commit](https://img.shields.io/github/last-commit/lcerdeira/Spider) 
 ![Open Issues](https://img.shields.io/github/issues-raw/lcerdeira/Spider) 
@@ -36,7 +36,7 @@
     - `mkdir <your directory_name>` .
 - Into your directory
     - `cd <your directory>` .
-- Clone repository to local. `git clone https://github.com/lcerdeira/webscrap.git` .
+- Clone repository to local. `git clone https://github.com/lcerdeira/Spider.git` .
 - Into to repository cloned.
     - `cd webscrap` .
 - After that run command `pip install -r requirements.txt` to install required modules.

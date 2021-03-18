@@ -1,5 +1,5 @@
 
-# SpYder
+# Spyder
 ![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spider) 
 ![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spider) 
 ![License](https://img.shields.io/badge/license-GPLv3-blue)

@@ -1,7 +1,7 @@
 # Spider
 ![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spider) 
 ![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spider) 
-![License](https://img.shields.io/badge/license-GPL) 
+![License](https://img.shields.io/badge/license-GPLv3-blue)
 ![Version](https://img.shields.io/badge/version-1.0-red) 
 ![Last Commit](https://img.shields.io/github/last-commit/lcerdeira/Spider) 
 ![Open Issues](https://img.shields.io/github/issues-raw/lcerdeira/Spider) 

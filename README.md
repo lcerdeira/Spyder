@@ -1,3 +1,4 @@
+![Spyder_Logo](docs/Sypre_logo.jpeg)
 
 # Spyder
 ![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spider) 

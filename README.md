@@ -22,10 +22,10 @@
     - It is responsable for scraping csv data from form on each collection.
 - collections_from_link.py
     - It is responsable for scraping csv and newick data from each collection.
-### Server System Requirements
+### Server System Requirements (Snapshot or docker allowed)
 - Ubuntu Server
-- 24GB Memory Ram or 16GB
-- 1TB Disk
+- 16GB RAM Memory
+- 512GB Disk
 
 ## Used
 - Open terminal of your operational system.

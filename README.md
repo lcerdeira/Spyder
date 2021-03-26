@@ -1,13 +1,13 @@
 ![Spyder_Logo](docs/Sypre_logo.jpeg)
 
 # Spyder
-![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spider) 
-![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spider) 
+![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spyder) 
+![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spyder) 
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
 ![Version](https://img.shields.io/badge/version-1.0-red) 
-![Last Commit](https://img.shields.io/github/last-commit/lcerdeira/Spider) 
-![Open Issues](https://img.shields.io/github/issues-raw/lcerdeira/Spider) 
-![Repo Size](https://img.shields.io/github/repo-size/lcerdeira/Spider)
+![Last Commit](https://img.shields.io/github/last-commit/lcerdeira/Spyder) 
+![Open Issues](https://img.shields.io/github/issues-raw/lcerdeira/Spyder) 
+![Repo Size](https://img.shields.io/github/repo-size/lcerdeira/Spyder)
 [![DOI](https://zenodo.org/badge/331138839.svg)](https://zenodo.org/badge/latestdoi/331138839)
 
 ## Requirements
@@ -39,7 +39,7 @@
     - `mkdir <your directory_name>` .
 - Into your directory
     - `cd <your directory>` .
-- Clone repository to local. `git clone https://github.com/lcerdeira/Spider.git` .
+- Clone repository to local. `git clone https://github.com/lcerdeira/Spyder.git` .
 - Into to repository cloned.
     - `cd webscrap` .
 - After that run command `pip install -r requirements.txt` to install required modules.

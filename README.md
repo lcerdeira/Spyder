@@ -13,18 +13,30 @@
 ## Requirements
 ### Language and framework
 - Python 3+
-- Scrapy 2.4
+- Scrapy 2.5.0
 
 #### Main files
-- generate_file.py
-    - It is responsable for create directories and files saving csv and newick data.
 - collections.py
     - It is responsable for scraping csv data from form on each collection.
 - collections_from_link.py
     - It is responsable for scraping csv and newick data from each collection.
-### Server System Requirements (Snapshot or docker allowed)
+
+#### Common files
+- generate_file.py
+    - It is responsable for create directories and files saving csv and newick data.
+- save_csv_file.py
+    - It is responsable for create csv files with data from collections.
+- save_nwk_file.py
+    - It is responsable for create newick file with tree from collections.
+- generate_author_id_year.py
+    - It is a function responsable for return a tuple with 3 params: author, id and year to create directory name.
+- mount_url.py
+    - It is a function responsable for return mounted url to scrap data from collection page.
+- organisms.py
+    - It is a constant to return a tuple of organism and its ids.
+### Server System Requirements
 - Ubuntu Server
-- 16GB RAM Memory
+- 24GB Memory Ram or 16GB
 - 512GB Disk
 
 ## Used
@@ -39,13 +51,14 @@
     - `mkdir <your directory_name>` .
 - Into your directory
     - `cd <your directory>` .
-- Clone repository to local. `git clone https://github.com/lcerdeira/Spyder.git` .
+- Clone repository to local. `git clone https://github.com/lcerdeira/webscrap.git` .
 - Into to repository cloned.
     - `cd webscrap` .
 - After that run command `pip install -r requirements.txt` to install required modules.
 - Now you stay at main directory. Run `scrapy crawl collections` on terminal to start webscraping to collecting csv.
 - Now you stay at main directory. Run `scrapy crawl collections_from_link` on terminal to start webscraping to collecting newick.
 - The downloaded files will appear on files directory automatically created.
+
 
 ### Flow Diagram
 - ![flow diagram](./docs/diagram.jpeg)

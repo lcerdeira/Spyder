@@ -1,12 +1,14 @@
+from logging import debug
 import os
 
-def generate_path(filename, id, author, year):
+
+def generate_path(filename, id, author, year, organism, file_type=None):
         # method responsable to generate directory and file to be saved
         # :param str filename: pass filename from URL
         # :param str id: collection`s identification
         # :param str author: author name
         # :param str year: year or None
-
+        
         # second_dir variable receive directory`s name patten
         second_dir = f'{id}_{author}_{year}_core'
 
@@ -30,7 +32,7 @@ def generate_path(filename, id, author, year):
 
         # first_dir variable receive second item to be first directory 
         # where going to be save the file
-        first_dir = partial_path[1]
+        first_dir = organism
 
         # file variable going to receive filename 
         # where going to be save the data
@@ -39,13 +41,16 @@ def generate_path(filename, id, author, year):
         # joined by underscore
         file = separator_2.join(partial_path[-2:])
 
+        #check if has file_type
+        if file_type:
+            file = f'{file}.{file_type}'
+
         # path concat directories`s name
         # it creating path to save data
         path = f'{current_dir}/pathogen/files/collections/{first_dir}/{second_dir}'
-
+        
         # check if not exists path
         if not os.path.exists(path):
-
             # create directories 
             # recursive method
             os.makedirs(path)

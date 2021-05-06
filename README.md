@@ -1,15 +1,3 @@
-![Spyder_Logo](docs/spyder_logo_v2.jpeg)
-
-# Spyder
-![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spyder) 
-![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spyder) 
-![License](https://img.shields.io/badge/license-GPLv3-blue)
-![Version](https://img.shields.io/badge/version-1.0-red) 
-![Last Commit](https://img.shields.io/github/last-commit/lcerdeira/Spyder) 
-![Open Issues](https://img.shields.io/github/issues-raw/lcerdeira/Spyder) 
-![Repo Size](https://img.shields.io/github/repo-size/lcerdeira/Spyder)
-[![DOI](https://zenodo.org/badge/331138839.svg)](https://zenodo.org/badge/latestdoi/331138839)
-
 ## Requirements
 ### Language and framework
 - Python 3+
@@ -37,7 +25,7 @@
 ### Server System Requirements
 - Ubuntu Server
 - 24GB Memory Ram or 16GB
-- 512GB Disk
+- 1TB Disk
 
 ## Used
 - Open terminal of your operational system.
@@ -58,7 +46,6 @@
 - Now you stay at main directory. Run `scrapy crawl collections` on terminal to start webscraping to collecting csv.
 - Now you stay at main directory. Run `scrapy crawl collections_from_link` on terminal to start webscraping to collecting newick.
 - The downloaded files will appear on files directory automatically created.
-
 
 ### Flow Diagram
 - ![flow diagram](./docs/diagram.jpeg)

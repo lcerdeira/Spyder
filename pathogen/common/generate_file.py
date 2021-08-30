@@ -40,6 +40,8 @@ def generate_path(filename, id, author, year, organism, file_type=None):
         # from last 2 items on list 
         # joined by underscore
         file = separator_2.join(partial_path[-2:])
+        if file == 'public_genomes':
+            first_dir = file
 
         #check if has file_type
         if file_type:

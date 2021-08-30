@@ -7,6 +7,9 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
+from shutil import which
+
+
 BOT_NAME = 'pathogen'
 
 SPIDER_MODULES = ['pathogen.spiders']
@@ -58,6 +61,9 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 723,
     'scrapy_splash.SplashMiddleware': 725,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+
+    # Selenium
+    'scrapy_selenium.SeleniumMiddleware': 800
 }
 
 # Enable or disable extensions
@@ -68,9 +74,10 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+ITEM_PIPELINES = {
 #    'pathogen.pipelines.PathogenPipeline': 300,
-#}
+    'pathogen.pipelines.MongoDBPathogenPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -98,3 +105,15 @@ DOWNLOADER_MIDDLEWARES = {
 SPLASH_URL = 'http://localhost:8050'
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
 HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+
+
+# MongoDB Connection
+MONGO_URI = "localhost"
+MONGO_PORT = 27017
+MONGO_DB = "scrapy"
+
+
+# SCRAPY SELENIUM
+SELENIUM_DRIVER_NAME = 'firefox'
+SELENIUM_DRIVER_EXECUTABLE_PATH = which('geckodriver')
+SELENIUM_DRIVER_ARGUMENTS=['-headless']  # '--headless' if using chrome instead of firefox

@@ -1,17 +1,3 @@
-![Spyder_Logo](docs/spyder_logo_v2.jpeg)
-
-# Spyder
-![Code Count](https://img.shields.io/github/languages/count/lcerdeira/Spyder) 
-![Main Code Base](https://img.shields.io/github/languages/top/lcerdeira/Spyder) 
-![License](https://img.shields.io/badge/license-GPLv3-blue)
-![Version](https://img.shields.io/badge/version-1.0-red) 
-![Last Commit](https://img.shields.io/github/last-commit/lcerdeira/Spyder) 
-![Open Issues](https://img.shields.io/github/issues-raw/lcerdeira/Spyder) 
-![Repo Size](https://img.shields.io/github/repo-size/lcerdeira/Spyder)
-[![DOI](https://zenodo.org/badge/331138839.svg)](https://zenodo.org/badge/latestdoi/331138839)
-
-## Requirements
-### Language and framework
 ## Requirements
 ### Language and framework
 - Python 3+
@@ -63,3 +49,13 @@
 
 ### Flow Diagram
 - ![flow diagram](./docs/diagram.jpeg)
+
+## API
+
+### How to use
+After downloaded and generated some files by spider you can see some file by API.
+
+- First you need to go api directory. `cd api`
+- Run command `uvicorn main:app`
+- Now use any browser to see `http://localhost:8000/docs`. The result must be which appear on GIF.
+- ![Swagger interface](./docs/swaggerUI.gif)

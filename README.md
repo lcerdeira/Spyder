@@ -51,7 +51,8 @@
     - `mkdir <your directory_name>` .
 - Into your directory
     - `cd <your directory>` .
-- Clone repository to local. `git clone https://github.com/lcerdeira/webscrap.git` .
+- Before clone git repository you need setup ssh-key![GitHub instructions](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+- Clone repository to local. `git clone https://github.com/lcerdeira/Spyder.git` .
 - Into to repository cloned.
     - `cd webscrap` .
 - After that run command `pip install -r requirements.txt` to install required modules.
@@ -60,7 +61,7 @@
 - The downloaded files will appear on files directory automatically created.
 
 ### Flow Diagram
-- ![flow diagram](./docs/diagram.jpeg)
+![flow diagram](./docs/diagram.jpeg)
 
 ## API
 
@@ -70,4 +71,4 @@ After downloaded and generated some files by spider you can see some file by API
 - First you need to go api directory. `cd api`
 - Run command `uvicorn main:app`
 - Now use any browser to see `http://localhost:8000/docs`. The result must be which appear on GIF.
-- ![Swagger interface](./docs/swaggerUI.gif)
+![Swagger interface](./docs/swaggerUI.gif)

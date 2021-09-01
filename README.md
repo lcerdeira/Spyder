@@ -51,7 +51,7 @@
     - `mkdir <your directory_name>` .
 - Into your directory
     - `cd <your directory>` .
-- Before clone git repository you need setup ssh-key![GitHub instructions](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+- Before clone git repository you need to setup ssh-key [GitHub instructions](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 - Clone repository to local. `git clone https://github.com/lcerdeira/Spyder.git` .
 - Into to repository cloned.
     - `cd webscrap` .

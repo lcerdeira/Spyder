@@ -54,7 +54,7 @@
 - Before clone git repository you need to setup ssh-key [GitHub instructions](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 - Clone repository to local. `git clone https://github.com/lcerdeira/Spyder.git` .
 - Into to repository cloned.
-    - `cd webscrap` .
+    - `cd Spyder` .
 - After that run command `pip install -r requirements.txt` to install required modules.
 - Now you stay at main directory. Run `scrapy crawl collections` on terminal to start webscraping to collecting csv.
 - Now you stay at main directory. Run `scrapy crawl collections_from_link` on terminal to start webscraping to collecting newick.

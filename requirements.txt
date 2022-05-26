@@ -56,7 +56,7 @@ starlette==0.14.2
 toml==0.10.2
 Twisted==22.1.0
 typing-extensions==3.7.4.3
-ujson==1.35
+ujson==5.2.0
 urllib3==1.26.6
 uvicorn==0.13.4
 w3lib==1.22.0

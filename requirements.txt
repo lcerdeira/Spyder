@@ -52,7 +52,7 @@ selenium==3.141.0
 service-identity==18.1.0
 six==1.15.0
 snooty-lextudio==1.9.2.dev0
-starlette==0.14.2
+starlette==0.25.0
 toml==0.10.2
 Twisted==22.1.0
 typing-extensions==3.7.4.3

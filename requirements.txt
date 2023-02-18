@@ -45,7 +45,7 @@ python-jsonrpc-server==0.3.4
 PyYAML==5.4.1
 queuelib==1.5.0
 requests==2.25.1
-Scrapy==2.6.2
+Scrapy==2.8.0
 scrapy-selenium==0.0.7
 scrapy-splash==0.8.0
 selenium==3.141.0

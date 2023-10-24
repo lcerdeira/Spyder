@@ -57,7 +57,7 @@ toml==0.10.2
 Twisted==22.10.0
 typing-extensions==3.7.4.3
 ujson==5.4.0
-urllib3==1.26.6
+urllib3==1.26.18
 uvicorn==0.13.4
 w3lib==1.22.0
 watchdog==1.0.2

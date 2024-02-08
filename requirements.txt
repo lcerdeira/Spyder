@@ -54,7 +54,7 @@ six==1.15.0
 snooty-lextudio==1.9.2.dev0
 starlette==0.36.2
 toml==0.10.2
-Twisted==22.10.0
+Twisted==23.10.0
 typing-extensions==3.7.4.3
 ujson==5.4.0
 urllib3==1.26.18
